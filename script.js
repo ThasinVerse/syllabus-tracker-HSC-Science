@@ -19,12 +19,22 @@
       {n:'২য় পত্র (প্রাণিবিজ্ঞান)',ch:['প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস','প্রাণীর পরিচিতি','পরিপাক ও শোষণ','রক্ত ও সঞ্চালন','গ্যাসীয় বিনিময়','বর্জ্য ও নিষ্কাশন','চলন ও অঙ্গচালনা','সমন্বয় ও নিয়ন্ত্রণ','মানব জীবনের ধারাবাহিকতা','মানবদেহের প্রতিরক্ষা','জীনতত্ত্ব ও বিবর্তন','প্রাণীর আচরণ']}
     ]},
     {id:'ban',name:'বাংলা',groups:[
-      {n:'১ম পত্র',ch:['গদ্য','কবিতা','উপন্যাস','নাটক','ছোটগল্প']},
-      {n:'২য় পত্র',ch:['ধ্বনি ও বর্ণ','শব্দ ও পদ','বাক্য ও বাগধারা','বানান ও অশুদ্ধি সংশোধন','সারাংশ ও সারমর্ম','ভাব-সম্প্রসারণ','প্রতিবেদন ও চিঠিপত্র','প্রবন্ধ রচনা']}
+      {n:'প্রথম অংশ · গদ্য',ch:['বাঙ্গালার নব্য লেখকদিগের প্রতি নিবেদন','অপরিচিতা','বিলাসী','সাহিত্যে খেলা','অর্ধাঙ্গী','যৌবনের গান','জীবন ও বৃক্ষ','মাসি-পিসি','গন্তব্য কাবুল']},
+      {n:'প্রথম অংশ · কবিতা',ch:['বিভীষণের প্রতি মেঘনাদ','বিদ্রোহী','ঋতু বর্ণন','সোনার তরী','প্রতিদান','সুচেতনা','তাহারেই পড়ে মনে','আঠারো বছর বয়স','ফেব্রুয়ারি ১৯৬৯']},
+      {n:'প্রথম অংশ · ব্যাকরণ ও নির্মিতি',ch:['বাংলা বানানের নিয়ম','বাংলা উচ্চারণের নিয়ম','বাংলা শব্দগঠন (সমাস, প্রত্যয়, উপসর্গ)','বৈদ্যুতিন চিঠি অথবা খুদে বার্তা / পত্রলিখন অথবা আবেদনপত্র']},
+      {n:'প্রথম অংশ · সহপাঠ',ch:['লালসালু (উপন্যাস)']},
+      {n:'দ্বিতীয় অংশ · গদ্য',ch:['রেইনকোট','কপিলদাস মুর্মুর শেষ কাজ','নেকলেস']},
+      {n:'দ্বিতীয় অংশ · কবিতা',ch:['আমি কিংবদন্তির কথা বলছি','পদ্মা','প্রত্যাবর্তনের লজ্জা']},
+      {n:'দ্বিতীয় অংশ · ব্যাকরণ',ch:['বাংলা ভাষার ব্যাকরণিক শব্দশ্রেণি','বাক্যতত্ত্ব','বাংলা ভাষার অপপ্রয়োগ ও শুদ্ধ প্রয়োগ']},
+      {n:'দ্বিতীয় অংশ · নির্মিতি',ch:['পারিভাষিক শব্দ অথবা অনুবাদ (ইংরেজি থেকে বাংলা)','দিনলিপি লিখন অথবা অভিজ্ঞতা বর্ণন / ভাষণ অথবা প্রতিবেদন','প্রবন্ধ-নিবন্ধ রচনা (পাঁচটি বিকল্প থেকে ১টি)','সারাংশ-সারমর্ম / ভাবসম্প্রসারণ','সংলাপ / খুদে গল্প']},
+      {n:'দ্বিতীয় অংশ · সহপাঠ',ch:['সিরাজউদ্দৌলা (নাটক)']}
     ]},
     {id:'eng',name:'ইংরেজি',groups:[
-      {n:'1st Paper',ch:['Seen Comprehension','Unseen Comprehension','Vocabulary & Word Meaning','Completing Story & Dialogue','Summary & Gap Filling']},
-      {n:'2nd Paper',ch:['Parts of Speech','Tense & Right Form of Verbs','Voice & Narration','Sentence Transformation','Prepositions & Connectors','Paragraph & Letter Writing','Report, CV & Composition']}
+      {n:'1st Paper · Units (English for Today)',ch:['Unit One: Education and Life','Unit Two: Art and Craft','Unit Three: Myths and Literature','Unit Four: History','Unit Five: Human Rights','Unit Six: Dreams','Unit Seven: Youthful Achievers','Unit Eight: Relationships','Unit Nine: Adolescence','Unit Ten: Lifestyle','Unit Eleven: Peace and Conflict','Unit Twelve: Environment and Nature']},
+      {n:'1st Paper · Poems',ch:['Imam Al-Ghazali – “Deathbed”','Emily Dickinson – “Hope is the thing with feathers”','Pablo Neruda – “Bird”']},
+      {n:'1st Paper · Short Stories',ch:['Rokeya Sakhawat Hossain – “Sultana’s Dream”','Langston Hughes – “Thank You, Ma’am”','Saadat Hasan Manto – “Toba Tek Singh”']},
+      {n:'1st Paper · Drama',ch:['Anton Chekhov – “The Proposal”']},
+      {n:'2nd Paper · Grammar & Writing',ch:['Article','Right forms of verbs','Completing sentence','Gap filling with clues with given words/phrases','Use of Modifiers','Preposition','Use of Synonym/Antonym','Punctuation','Changing Narrative Style','Changing Sentences + Previous grammatical items','Use of Sentence Connectors','Pronoun Reference']}
     ]},
     {id:'ict',name:'ICT',groups:[
       {n:'পূর্ণ সিলেবাস',ch:['তথ্য ও যোগাযোগ প্রযুক্তি: বিশ্বগ্রাম','কমিউনিকেশন সিস্টেমস ও কম্পিউটার নেটওয়ার্কিং','সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস','ওয়েব ডিজাইন পরিচিতি ও এইচটিএমএল','প্রোগ্রামিং ভাষা','ডেটাবেজ ম্যানেজমেন্ট সিস্টেম']}
@@ -32,11 +42,58 @@
   ];
 
   var KEY='hsc-science-tracker-v1';
-  var S={done:{},star:{},custom:{},exam:'',log:{}};
+  var S={v:0,done:{},star:{},custom:{},exam:'',log:{},sound:true};
   try{var raw=localStorage.getItem(KEY);if(raw){var p=JSON.parse(raw);if(p&&typeof p==='object'){for(var k in S){if(p[k]!==undefined)S[k]=p[k]}}}}catch(e){}
+  if(S.v<2){
+    // Bangla and English syllabus was replaced, so old ticks for those two subjects no longer match.
+    ['done','star'].forEach(function(k){Object.keys(S[k]).forEach(function(id){if(/^(ban|eng)-/.test(id))delete S[k][id]})});
+    delete S.custom.ban;delete S.custom.eng;
+    S.v=2;
+  }
   var current='phy',confirmReset=false;
 
   function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+  var audioCtx=null;
+  function ac(){
+    if(!audioCtx){
+      var C=window.AudioContext||window.webkitAudioContext;
+      if(!C)return null;
+      try{audioCtx=new C()}catch(e){return null}
+    }
+    if(audioCtx.state==='suspended'){try{audioCtx.resume()}catch(e){}}
+    return audioCtx;
+  }
+  function tone(freq,delay,dur,type,vol){
+    var c=ac();if(!c)return;
+    var t=c.currentTime+delay,o=c.createOscillator(),g=c.createGain();
+    o.type=type||'sine';
+    o.frequency.setValueAtTime(freq,t);
+    g.gain.setValueAtTime(0.0001,t);
+    g.gain.exponentialRampToValueAtTime(vol||0.15,t+0.015);
+    g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+    o.connect(g);g.connect(c.destination);
+    o.start(t);o.stop(t+dur+0.05);
+  }
+  function sfx(kind){
+    if(!S.sound)return;
+    try{
+      if(kind==='tick'){tone(660,0,.09,'sine',.16);tone(990,.07,.16,'sine',.13)}
+      else if(kind==='untick'){tone(320,0,.1,'triangle',.09)}
+      else if(kind==='chapter'){[523.25,659.25,783.99,1046.5].forEach(function(f,i){tone(f,i*.09,.22,'triangle',.15)})}
+      else if(kind==='subject'){
+        [523.25,659.25,783.99,1046.5,1318.5,1568].forEach(function(f,i){tone(f,i*.1,.3,'triangle',.15)});
+        [523.25,659.25,783.99,1046.5].forEach(function(f){tone(f,.7,.9,'sine',.07)});
+      }
+    }catch(e){}
+  }
+  function subjectDone(id){
+    for(var n=0;n<SUBJECTS.length;n++){
+      var list=chapters(SUBJECTS[n]);
+      if(list.some(function(c){return c.id===id}))return stat(list).pct===100;
+    }
+    return false;
+  }
+
   function dayKey(d){d=d||new Date();return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 
@@ -159,9 +216,21 @@
     }
   }
 
-  function renderAll(){renderHero();renderTabs();renderPanel();renderFoot()}
+  var ICON_SND='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4z"/><path d="M15.5 9a4 4 0 010 6M18 6.5a8 8 0 010 11"/></svg>';
+  var ICON_MUTE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5v5h3.5l4.5 4v-13l-4.5 4z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></svg>';
+  function renderSound(){
+    var b=document.getElementById('soundBtn');if(!b)return;
+    b.setAttribute('aria-pressed',S.sound?'true':'false');
+    b.innerHTML=(S.sound?ICON_SND:ICON_MUTE)+'<span>'+(S.sound?'সাউন্ড চালু':'সাউন্ড বন্ধ')+'</span>';
+  }
+  function renderAll(){renderSound();renderHero();renderTabs();renderPanel();renderFoot()}
 
-  function refocus(sel){var e=sel&&document.querySelector(sel);if(e)e.focus()}
+  function refocus(sel){
+    var e=sel&&document.querySelector(sel);
+    if(!e)return;
+    e.focus();
+    if(sel.indexOf('"stage"')>-1&&e.getAttribute('aria-pressed')==='true')e.classList.add('pop');
+  }
 
   document.addEventListener('click',function(ev){
     var t=ev.target.closest('[data-tab],[data-act]');if(!t)return;
@@ -172,6 +241,9 @@
       d[i]=d[i]?0:1;
       var k=dayKey();S.log[k]=Math.max(0,(S.log[k]||0)+(d[i]?1:-1));
       sel='[data-act="stage"][data-id="'+id+'"][data-i="'+i+'"]';
+      if(!d[i])sfx('untick');
+      else if(d[0]+d[1]+d[2]===3)sfx(subjectDone(id)?'subject':'chapter');
+      else sfx('tick');
     }else if(a==='star'){
       if(S.star[id])delete S.star[id];else S.star[id]=1;
       sel='[data-act="star"][data-id="'+id+'"]';
@@ -180,7 +252,8 @@
       delete S.done[id];delete S.star[id];
     }else if(a==='reset'){confirmReset=true;renderFoot();return}
     else if(a==='reset-no'){confirmReset=false;renderFoot();return}
-    else if(a==='reset-yes'){S={done:{},star:{},custom:{},exam:'',log:{}};confirmReset=false}
+    else if(a==='reset-yes'){S={v:2,done:{},star:{},custom:{},exam:'',log:{},sound:S.sound};confirmReset=false}
+    else if(a==='sound'){S.sound=!S.sound;save();renderSound();if(S.sound)sfx('tick');return}
     else return;
     save();renderAll();refocus(sel);
   });

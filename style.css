@@ -1,0 +1,101 @@
+/* Layout: one narrow column. Hero (progress ring + exam countdown), a scrolling subject strip, then chapter cards each with three stage toggles. Dark navy like ThasinVerse, cyan to violet accent. */
+:root{
+  --bg:#050816;
+  --surface:#0c1228;
+  --surface-2:#141c3a;
+  --line:#232d52;
+  --fg:#e9edff;
+  --muted:#8f9acb;
+  --accent:#38d0ff;
+  --accent-2:#8b5cf6;
+  --good:#34d399;
+  --warn:#fbbf24;
+  --ink:#04101c;
+  --font-display:'Anek Bangla','Hind Siliguri',system-ui,sans-serif;
+  --font-body:'Hind Siliguri','Noto Sans Bengali',system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{
+  margin:0;
+  min-height:100vh;
+  background:var(--bg);
+  background-image:radial-gradient(60rem 28rem at 85% -10%,rgba(139,92,246,.18),transparent 60%),radial-gradient(48rem 24rem at -10% 0%,rgba(56,208,255,.12),transparent 60%);
+  background-repeat:no-repeat;
+  color:var(--fg);
+  font-family:var(--font-body);
+  font-size:15px;
+  line-height:1.55;
+  padding-block:20px 40px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:18px;min-width:0}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.top{display:flex;flex-direction:column;gap:2px}
+.kicker{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:600;text-transform:uppercase}
+h1{font-family:var(--font-display);font-size:28px;line-height:1.2;margin:0;font-weight:800;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0}
+
+.hero{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.ring{flex:none}
+.ring text{font-family:var(--font-display)}
+.hero-info{flex:1 1 200px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.count{display:flex;flex-direction:column;gap:6px}
+.count .big{font-family:var(--font-display);font-size:30px;font-weight:800;line-height:1.1}
+.count .big small{font-size:15px;font-weight:600;color:var(--muted);margin-left:4px}
+.lbl{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.date{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;width:100%;max-width:220px}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stat{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:6px 10px;display:flex;flex-direction:column;min-width:0}
+.stat b{font-family:var(--font-display);font-size:17px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted)}
+
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.tab{flex:none;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:9px 13px;display:flex;flex-direction:column;gap:1px;min-width:92px}
+.tab .nm{font-weight:600;white-space:nowrap}
+.tab .pc{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tab[aria-selected="true"]{background:var(--surface-2);border-color:var(--accent)}
+.tab[aria-selected="true"] .pc{color:var(--accent)}
+
+.panel{display:flex;flex-direction:column;gap:20px;min-width:0}
+.grp-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:0 0 8px}
+.grp-h h3{font-family:var(--font-display);font-size:19px;margin:0;font-weight:700}
+.grp-h span{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.list{display:flex;flex-direction:column;gap:10px}
+.ch{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.ch.full{border-color:rgba(52,211,153,.45)}
+.ch-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.ch-top h4{margin:0;font-size:15px;font-weight:600;line-height:1.4;min-width:0;overflow-wrap:anywhere}
+.ch-top h4 small{display:block;color:var(--muted);font-weight:400;font-size:12px}
+.tools{display:flex;gap:4px;flex:none}
+.icon{background:transparent;border:1px solid transparent;border-radius:8px;width:34px;height:34px;display:grid;place-items:center;color:var(--muted)}
+.icon:hover{background:var(--surface-2)}
+.icon.on{color:var(--warn)}
+.icon svg{width:18px;height:18px}
+.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stg{background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:7px 6px;font-size:13.5px;font-weight:500;display:flex;align-items:center;justify-content:center;gap:6px;min-width:0}
+.stg svg{width:14px;height:14px;flex:none;opacity:.5}
+.stg[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--ink);font-weight:600}
+.stg[aria-pressed="true"] svg{opacity:1}
+.bar{height:5px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:99px;transition:width .25s}
+.ch.full .bar i{background:var(--good)}
+
+.add{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.add h3{margin:0;font-family:var(--font-display);font-size:16px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.field{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:9px 11px;flex:1 1 160px;min-width:0}
+.btn{background:var(--accent);color:var(--ink);border:0;border-radius:10px;padding:9px 16px;font-weight:600}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.btn.danger{background:#f87171;color:#2a0707}
+.empty{color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:18px;text-align:center}
+.foot{display:flex;flex-direction:column;gap:10px;align-items:flex-start;color:var(--muted);font-size:13px}
+.note{margin:0}
+
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+@media (max-width:420px){h1{font-size:24px}.stg{font-size:13px;padding:7px 4px}}
